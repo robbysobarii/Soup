@@ -1,0 +1,11 @@
+:root {
+  --primary: #5b4947;
+  --secondary: #fabc1d;
+  --light: #fff;
+  --dark: #000;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}

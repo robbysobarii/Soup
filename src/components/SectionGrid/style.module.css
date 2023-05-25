@@ -1,0 +1,38 @@
+.box {
+  padding: 20px 100px !important;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column !important;
+  align-items: left;
+  text-decoration: none;
+}
+.gridItem img {
+  object-fit: cover;
+  transition: box-shadow ease-in-out 0.2s;
+  margin-bottom: 15px;
+}
+
+.type {
+  color: gray;
+}
+
+.name {
+  margin-bottom: 30px !important;
+}
+
+.gridItem:hover img {
+  box-shadow: 0 0 10px gray;
+}
+
+@media (max-width: 600px) {
+  .box {
+    padding-inline: 20px !important;
+    margin: 0;
+  }
+
+  .gridItem img {
+    width: 100%;
+  }
+}

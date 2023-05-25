@@ -1,0 +1,32 @@
+.container {
+  display: flex !important;
+  flex-direction: column;
+  width: 100% !important;
+  height: 85vh;
+  margin-inline: auto;
+  align-items: center;
+}
+.container img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.Home {
+  margin-right: 10px;
+}
+.Arrows {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .buttons {
+    flex-direction: column;
+  }
+}

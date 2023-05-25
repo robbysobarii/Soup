@@ -1,0 +1,21 @@
+.container {
+  display: flex !important;
+  flex-direction: column;
+  width: 100% !important;
+  height: 80vh;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
+}
+.container img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.Home {
+  margin-right: 10px;
+}
+.Arrows {
+  margin-right: 10px;
+}

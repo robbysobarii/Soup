@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  padding: 20px 100px;
+  gap: 50px;
+}
+
+.image {
+  width: 400px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.selectContainer {
+  min-width: 300px !important;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.imageSkeleton {
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .content {
+    gap: 20px;
+  }
+  .image {
+    width: 100%;
+    height: 200px;
+  }
+  .button {
+    padding-inline: 20px !important;
+  }
+  .imageSkeleton {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+}

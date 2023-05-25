@@ -1,0 +1,34 @@
+.container {
+  padding-block: 25px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.paymentBox {
+  padding-block: 20px;
+}
+
+.paymentList {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-block: 10px;
+  padding-inline: 25px;
+  cursor: pointer;
+}
+
+.paymentList:hover {
+  background-color: lightgray;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  padding-inline: 25px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-inline: 20px;
+  }
+}

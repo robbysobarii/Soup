@@ -1,0 +1,31 @@
+.section {
+  padding-bottom: 50px;
+  min-height: 60vh;
+}
+
+.container {
+  padding: 20px 80px;
+}
+
+.tableHeader {
+  background-color: var(--primary);
+}
+
+.tableHeader th {
+  color: white;
+}
+
+.tableRow:nth-child(even) {
+  background-color: lightgray;
+}
+
+.tableRow td,
+th {
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-inline: 20px;
+  }
+}

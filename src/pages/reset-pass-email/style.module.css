@@ -1,0 +1,66 @@
+.container {
+  display: flex !important;
+  flex-direction: column;
+  width: 55% !important;
+  height: 85vh;
+  padding: 60px;
+  margin-inline: auto;
+}
+
+.container p {
+  margin-top: 16px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-block: 40px !important;
+  gap: 24px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.loginText {
+  font-weight: 400;
+  align-self: center;
+}
+
+.loginText a {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.loginText a:hover {
+  text-decoration: underline;
+}
+
+.forgotText {
+  font-weight: 400;
+  align-self: left;
+}
+
+.forgotText a {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.forgotText a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    width: 100% !important;
+  }
+  .buttons {
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+}
